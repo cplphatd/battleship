@@ -1,0 +1,36 @@
+.gridBox {
+    height: 3em;
+    width: 3em;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    background-color: #60c4ff;
+}
+.ship {
+    background-color: lightgrey;
+}
+#enemyGrid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 30em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#input {
+    height: 2em;
+    width: 10em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#mainContainer {
+    display: flex;
+    flex-flow: row nowrap;
+}
+#playerGrid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 30em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
